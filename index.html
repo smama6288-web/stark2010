@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070707">
+<meta name="description" content="STARK ZONE gaming hub — Blood Strike, horror games, gameplay videos and gaming news.">
+<title>STARK ZONE | Game Details</title>
+<link rel="icon" href="sz-logo.png">
+<style>
+:root{--red:#ef1822;--bg:#070707;--panel:#111;--muted:#aaa;--line:#292929}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#f5f5f5;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1150px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#080808ee;backdrop-filter:blur(12px);border-bottom:1px solid #282828}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:1px}.brand img{width:42px;height:42px;object-fit:contain}.brand em{color:var(--red);font-style:normal}
+nav{display:flex;gap:20px;font-size:.9rem}nav a:hover{color:var(--red)}.menu{display:none;background:#161616;border:1px solid #333;color:white;padding:9px;border-radius:8px}
+.hero{position:relative;min-height:460px;display:flex;align-items:center;overflow:hidden;border-bottom:1px solid #222}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#050505f5,#050505a8,#05050560),url('banner.png') center/cover;opacity:.85}
+.hero-content{position:relative;padding:70px 0}.tag{color:#ff5159;letter-spacing:4px;font-size:.76rem;font-weight:900;text-transform:uppercase}
+h1{font-size:clamp(3.2rem,9vw,7rem);line-height:.92;letter-spacing:-3px;margin:15px 0}h1 span{color:var(--red)}.hero p{color:#ccc;max-width:610px;font-size:1.08rem}
+.btn{display:inline-flex;padding:12px 18px;border-radius:7px;font-weight:800;border:1px solid #444;margin:8px 8px 0 0}.primary{background:var(--red);border-color:var(--red)}.secondary{background:#111}
+section{padding:65px 0}.heading{margin-bottom:24px}.heading small{color:var(--red);font-weight:900;letter-spacing:3px}.heading h2{font-size:clamp(2rem,5vw,3rem);margin:5px 0}.heading p,.muted{color:var(--muted);margin-top:0}
+.game-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.game{border:1px solid #333;border-radius:14px;overflow:hidden;background:linear-gradient(145deg,#171717,#090909);transition:.25s}.game:hover{transform:translateY(-4px);border-color:#8b2024;box-shadow:0 12px 35px #e8111b18}
+.game-cover{height:180px;display:flex;align-items:end;padding:18px;background:linear-gradient(0deg,#000e,transparent),radial-gradient(circle at 70% 25%,#6b1117,#161010 52%,#080808)}
+.game-cover .icon{font-size:2.7rem}.game-body{padding:20px}.game-body h3{font-size:1.45rem;margin:0 0 6px}.game-body p{color:#bbb;margin:0 0 15px}.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.chip{font-size:.75rem;padding:5px 9px;background:#1b1b1b;border:1px solid #383838;border-radius:20px;color:#ddd}
+.details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0}.detail{background:#0b0b0b;border:1px solid #252525;padding:10px;border-radius:8px}.detail b{display:block;font-size:.76rem;color:#888;text-transform:uppercase;letter-spacing:1px}.detail span{font-size:.92rem}
+.list-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.info{padding:20px;border:1px solid #292929;background:#101010;border-radius:12px}.info h3{margin:0 0 8px}.info p{color:#aaa;margin:0}
+.profile-grid{display:grid;grid-template-columns:230px 1fr;gap:28px;align-items:center}.profile{width:100%;max-height:320px;object-fit:cover;object-position:center 25%;border-radius:12px;border:1px solid #3a1a1c}
+.cta{padding:30px;border:1px solid #4a171a;border-radius:14px;background:linear-gradient(120deg,#20090b,#0d0d0d);display:flex;justify-content:space-between;align-items:center;gap:20px}.cta p{color:#bbb;margin-bottom:0}
+footer{border-top:1px solid #282828;padding:25px 0;color:#888;font-size:.85rem}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.foot b{color:#fff}.foot span{color:var(--red)}
+@media(max-width:720px){.nav{height:64px}.menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:64px;padding:18px 4%;background:#090909;border-bottom:1px solid #333;flex-direction:column}nav.open{display:flex}.hero{min-height:440px}.game-grid,.list-grid{grid-template-columns:1fr}.profile-grid{grid-template-columns:1fr}.profile{max-width:230px}.cta{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><img src="sz-logo.png" alt="SZ logo"><span>STARK <em>ZONE</em></span></a>
+<button class="menu" id="menuButton" aria-expanded="false">☰ BALANNA EPA</button>
+<nav id="nav"><a href="#home">Home [MOKKD BALANNE]</a><a href="#games">Game Details</a><a href="#features">What I Play</a><a href="#about">About</a><a href="#follow">Follow</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-content">
+<div class="tag">Official Gaming Hub</div><h1>STARK<br><span>ZONE</span></h1>
+<p>[UBATA ENGLISH BARINAM MEKA BALANNA EPA EPA KIWWAMA EPA] Blood Strike action, horror games and scary gameplay. Explore the games featured on this channel and jump into the dark side of gaming.</p>
+<a class="btn primary" href="#games">Explore Games ↓</a><a class="btn secondary" id="heroYoutube" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ YouTube Channel</a>
+</div></section>
+
+<section id="games"><div class="wrap">
+<div class="heading"><small>GAME LIBRARY</small><h2>GAME DETAILS</h2><p>Game information cards for the main STARK ZONE content. Game download links are left as official-site placeholders so you can add the correct region/platform link.</p></div>
+<div class="game-grid">
+<article class="game">
+<div class="game-cover"><div><div class="icon">🎯</div><strong>FPS • ACTION • BATTLE ROYALE</strong></div></div>
+<div class="game-body"><h3>Blood Strike</h3><p>A fast-paced first-person shooter focused on squad combat, movement, weapons and battle-royale action.</p>
+<div class="chips"><span class="chip">FPS</span><span class="chip">Action</span><span class="chip">Online Multiplayer</span><span class="chip">Mobile / PC availability varies</span></div>
+<div class="details"><div class="detail"><b>Genre</b><span>First-person shooter</span></div><div class="detail"><b>Play style</b><span>Competitive action</span></div><div class="detail"><b>Content idea</b><span>Matches & highlights</span></div><div class="detail"><b>Channel focus</b><span>Gameplay / Shorts</span></div></div>
+<a class="btn primary game-link" href="https://www.blood-strike.com/" target="_blank" rel="noopener">Official Website ↗</a>
+</div></article>
+<article class="game">
+<div class="game-cover" style="background:linear-gradient(0deg,#000e,transparent),radial-gradient(circle at 70% 25%,#531a24,#191014 52%,#080808)"><div><div class="icon">👻</div><strong>HORROR • SURVIVAL • EXPLORATION</strong></div></div>
+<div class="game-body"><h3>Horror Games</h3><p>A collection category for scary games, creepy maps, survival challenges and spooky story gameplay.</p>
+<div class="chips"><span class="chip">Horror</span><span class="chip">Survival</span><span class="chip">Story</span><span class="chip">Scary gameplay</span></div>
+<div class="details"><div class="detail"><b>Genre</b><span>Horror / Survival</span></div><div class="detail"><b>Play style</b><span>Exploration & suspense</span></div><div class="detail"><b>Content idea</b><span>Scary moments</span></div><div class="detail"><b>Channel focus</b><span>Horror videos</span></div></div>
+<a class="btn secondary" href="#videos">Watch horror videos ↓</a>
+</div></article>
+</div></div></section>
+
+<section id="features"><div class="wrap">
+<div class="heading"><small>CHANNEL CONTENT</small><h2>WHAT TO EXPECT</h2><p>Use these sections to organize the types of gaming videos you publish.</p></div>
+<div class="list-grid">
+<div class="info"><h3>🎮 Gameplay</h3><p>Full matches, missions, wins, fails and exciting moments.</p></div>
+<div class="info"><h3>⚡ Shorts</h3><p>Quick highlights, clutch moments and short scary clips.</p></div>
+<div class="info"><h3>🕯️ Horror Runs</h3><p>Scary maps, unexpected encounters and spooky game stories.</p></div>
+<div class="info"><h3>😒English barinam balanna epa  </h3><p> balanna epa kiwwama epa.</p></div>
+</div></div></section>
+
+<section id="videos"><div class="wrap">
+<div class="heading"><small>WATCH NEXT</small><h2>FEATURED VIDEOS</h2><p>Replace these sample buttons with your actual YouTube video links and titles.</p></div>
+<div class="list-grid">
+<div class="info"><h3>Blood Strike Highlights</h3><p>Action clips and best moments.</p><a class="btn secondary video-link" href="https://www.youtube.com/" target="_blank" rel="noopener">Watch Video ↗</a></div>
+<div class="info"><h3>Scary Gameplay</h3><p>Horror gaming and creepy encounters.</p><a class="btn secondary video-link" href="https://www.youtube.com/" target="_blank" rel="noopener">Watch Video ↗</a></div>
+<div class="info"><h3>Latest Shorts</h3><p>Short gaming clips from STARK ZONE.</p><a class="btn secondary video-link" href="https://www.youtube.com/" target="_blank" rel="noopener">Watch Shorts ↗</a></div>
+</div></div></section>
+
+<section id="about"><div class="wrap profile-grid">
+<img class="profile" src="profile.jpg" alt="STARK ZONE creator">
+<div><div class="heading"><small>THE CREATOR</small><h2>ABOUT CHITHILA [STARK]</h2></div>
+<p class="muted">Welcome to STARK ZONE! This channel is for Blood Strike, horror gaming, scary gameplay and exciting gaming moments. Thanks for being part of the zone.</p>
+<img src="banner.png" alt="STARK ZONE banner" style="width:100%;max-height:115px;object-fit:contain;object-position:left center;margin-top:8px">
+</div></div></section>
+
+<section id="follow"><div class="wrap"><div class="cta"><div><div class="tag">Join the community</div><h2 style="margin:6px 0">ENTER THE DARK SIDE OF GAMING[BALUWANAM NODI FOLLOW KARALA PALAYAN]</h2><p>Follow STARK ZONE for new gaming videos and highlights.</p></div>
+<div><a class="btn primary" id="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ YouTube</a><a class="btn secondary" id="tiktok" href="https://www.tiktok.com/" target="_blank" rel="noopener">♪ TikTok</a></div>
+</div></div></section>
+</main>
+<footer><div class="wrap foot"><b>SZ <span>STARK ZONE</span></b><div>ENTER THE DARK SIDE OF GAMING</div><div>© <span id="year"></span> STARK ZONE</div></div></footer>
+<script>
+// Put your real links here. The current links are safe placeholders.
+const CHANNEL_LINKS={youtube:"https://www.youtube.com/",tiktok:"https://www.tiktok.com/"};
+document.getElementById("heroYoutube").href=CHANNEL_LINKS.youtube;
+document.getElementById("youtube").href=CHANNEL_LINKS.youtube;
+document.getElementById("tiktok").href=CHANNEL_LINKS.tiktok;
+document.getElementById("year").textContent=new Date().getFullYear();
+const button=document.getElementById("menuButton"), nav=document.getElementById("nav");
+button.addEventListener("click",()=>{const open=nav.classList.toggle("open");button.setAttribute("aria-expanded",String(open));});
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");button.setAttribute("aria-expanded","false");}));
+</script>
+</body></html>
